@@ -7,7 +7,7 @@ const App = () => {
   const [neutral, setNeutral] = useState(0);
   const [bad, setBad] = useState(0);
   const feedBackOptions = { good, neutral, bad };
-
+  console.log(bad);
   const onHandleFeedback = name => {
     switch (name) {
       case 'good':
